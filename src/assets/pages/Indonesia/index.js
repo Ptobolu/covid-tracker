@@ -18,12 +18,18 @@ const Indonesia = () => {
 
     return (
         <div>
-            <p>Kasus Seluruh Dunia</p>
-            <div>
-                <h2>Theat : {treat} </h2>
-                <h2>Confirmed : {confirmed} </h2>
-                <h2>Recovered : {recovered} </h2>
-                <h2>Deaths : {deaths} </h2>
+            <p>Kasus di Indonesia</p>
+            <div className="indo">
+                <h2>Di Rawat: {treat} </h2>
+                <div className="pos">
+                <h2>Positif: {confirmed} </h2>
+                <div className="sem">
+                <h2>Sembuh : {recovered} </h2>
+                <div className="mening">
+                <h2>Meninggal : {deaths} </h2>
+                </div>
+                </div>
+                </div>
             </div>
         </div>
     );

@@ -18,11 +18,15 @@ const Global = () => {
     return (
         <div>
             <p>Kasus Seluruh Dunia</p>
-            <div>
-                <h2>Confirmed : {confirmed} </h2>
-                <h2>Recovered : {recovered} </h2>
-                <h2>Deaths : {deaths} </h2>
-            </div>
+            <div className="positif">
+                <h2>Positif {confirmed} </h2>
+                </div>
+                <div className="sembuh">
+               <h2>Sembuh  {recovered} </h2>
+               </div>
+               <div className="mati">
+               <h2>Meninggal {deaths} </h2>
+               </div>
         </div>
     );
 };
